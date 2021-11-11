@@ -3,12 +3,12 @@ import './App.css';
 import SingleCard from './components/SingleCard';
 
 const cardImages = [
-  {"src": "/img/cat1.png", matched: false},
-  {"src": "/img/cat2.png", matched: false},
-  {"src": "/img/cat3.png", matched: false},
-  {"src": "/img/cat4.png", matched: false},
-  {"src": "/img/cat5.png", matched: false},
-  {"src": "/img/cat6.png", matched: false}
+  {"src": "img/cat1.png", matched: false},
+  {"src": "img/cat2.png", matched: false},
+  {"src": "img/cat3.png", matched: false},
+  {"src": "img/cat4.png", matched: false},
+  {"src": "img/cat5.png", matched: false},
+  {"src": "img/cat6.png", matched: false}
 ]
 
 function App() {
@@ -77,7 +77,7 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Magic Match</h1>
+      <h1>Match the Kittens</h1>
       <button onClick={shuffleCards}>New Game</button>
       <div className="card-grid">
         {cards.map(card => (
